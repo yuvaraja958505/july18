@@ -1,0 +1,157 @@
+.header{
+    display: flex;
+    /* justify-content: center; */
+}
+.header img{
+    margin-left: 40px;
+}
+.header > .header2{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.header > .header2 input{
+    width: 400px;
+    /* height: 25px; */
+    padding: 5px;
+}
+.header > .location{
+    margin-left: 30%;
+    margin-top: 19px;
+}
+/* .header > .location,section,option{
+    border-style: none;
+    height: 30px;
+    
+} */
+.header > .header3{
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
+.header > .header3 button{
+    width: 70px;
+    background-color: rgb(255, 85, 85);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.header > .header3 button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+
+}
+.header > .header4{
+    margin-left: 40px;
+    margin-top: 12px;
+    
+}
+.header4 ion-icon {
+    font-size: 35px; /* Increases the icon size */
+}
+.header4 ion-icon:hover{
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(238, 238, 238);
+}
+.nav ul li{
+    float: left;
+    padding: 5px;
+    list-style-type: none ;
+    margin-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color:rgb(255, 85, 85);;;
+}
+.nav > .nav2{
+    margin-left: 628px;
+}
+.flex-container{
+    display: flex;
+    margin-left: 10px;
+}
+.flex-container .section1,.section2,.section3,.section4,.section5,.section6{
+    margin-left: 30px;
+    
+}
+.flex-container  img{
+    border-radius: 30px;
+    padding: 10px;
+}
+.flex-container img:hover{
+    background-color: rgb(233, 230, 230);
+    cursor: pointer;
+}
+.flex-container button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(255, 85, 85);;
+    color: white;
+
+}
+.flex-container button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.flex-container1{
+    display: flex;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+}
+.flex-container1 .section7,.section8,.section9,.section10,.section11{
+    margin-left: 30px;
+}
+.flex-container1  img{
+    border-radius: 30px;
+    padding: 10px;
+}
+.flex-container1 img:hover{
+    background-color:rgb(233, 230, 230); ;
+    cursor: pointer;
+
+}
+.flex-container1 button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(255, 85, 85);;
+    color: white;
+
+}
+.flex-container1 button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.section12{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.flex-container2{
+    display: flex;
+}
+.flex-container2 .box1,.box2,.box3,.box4,.box5{
+    margin-left: 75px;
+    margin-top: 30px;
+    
+}
+.flex-container2 img{
+    border-radius: 30px;
+}
+.footer{
+    background-color: rgb(238, 238, 238);
+    color: rgb(39, 39, 39);
+    height: 100px;
+    /* justify-content: center; */
+    text-align: center;
+    /* margin-top: 50px; */
+}
+.footer h3{
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
